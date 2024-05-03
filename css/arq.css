@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Kaushan+Script&family=Noto+Sans+TC:wght@100..900&family=Poetsen+One&family=Yarndings+12+Charted&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(233, 196, 203);
+    color: #c91e5a;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+article p{
+    font-family: "Yarndings 12 Charted", system-ui;
+    font-size: 40px;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 80px;
+    background-color: #e8728f;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+article h2{
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.cabecalho ul{
+    list-style: none;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho ul li a{
+    color: #e6becc;
+    text-decoration: none;
+    background-color: rgb(170, 33, 67);
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #791f45;
+}
+
+.cabecalho ul li a:hover{
+    background-color: #7a72e8;
+}
+
+.container{
+    padding: 20px;
+}
+
+.container .detalhe{
+    text-align: left;
+    background-color: rgb(226, 187, 193);
+    border: 2px solid #f75c87;
+    padding: 20px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.detalhe:target{
+    background-color: rgb(231, 118, 135);
+}
