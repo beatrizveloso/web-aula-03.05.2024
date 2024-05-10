@@ -48,7 +48,7 @@ article h2{
 }
 
 .cabecalho ul li a:hover{
-    background-color: #7a72e8;
+    background-color: rgb(199, 63, 97);
 }
 
 .container{
@@ -65,5 +65,5 @@ article h2{
 }
 
 .detalhe:target{
-    background-color: rgb(231, 118, 135);
+    background-color: rgb(245, 165, 177);
 }
